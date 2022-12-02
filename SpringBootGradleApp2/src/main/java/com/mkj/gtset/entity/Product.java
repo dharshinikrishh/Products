@@ -30,7 +30,7 @@ public class Product {
 	private float userRating;	
 	
 	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name="productInfo")
+	@JoinColumn(name="productiinfo")
 	private ProductInfo productInfo;
 
 	
